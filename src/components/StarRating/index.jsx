@@ -8,7 +8,7 @@ export const Star = () => {
         <i className="fa fa-star checked" aria-hidden="true"></i>
         <i className="fa fa-star checked" aria-hidden="true"></i>
         <i className="fa fa-star checked" aria-hidden="true"></i>
-        <i className="fa fa-star" aria-hidden="true"></i>
+        <i className="fa fa-star checked" aria-hidden="true"></i>
         <i className="fa fa-star" aria-hidden="true"></i>
       </p>
     </>
