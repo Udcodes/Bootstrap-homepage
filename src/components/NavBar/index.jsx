@@ -21,7 +21,6 @@ const NavBar = () => {
               <FormControl type="text" placeholder="Search" className="mr-sm-2 search_input" />
             </Form>
             <div className="dropdown-divider"></div>
-
             <Nav className="navbar-nav">
               <Nav.Link href="#home">Sign in</Nav.Link>
               <Nav.Link href="#link">Sign up</Nav.Link>

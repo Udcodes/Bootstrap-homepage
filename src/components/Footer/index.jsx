@@ -40,7 +40,10 @@ const Footer = () => {
           </Col>
           <Col lg={6}>
             <p className="hidden-sm-down d-none d-lg-block float-lg-right m-0">
-              Trying to redownload a theme? Use our <a className="sub_link">redownload page.</a>
+              Trying to redownload a theme? Use our{' '}
+              <a className="sub_link" href="/">
+                redownload page.
+              </a>
             </p>
           </Col>
         </Row>

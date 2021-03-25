@@ -1,17 +1,22 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import Banner from './components/Banner';
-import LatestSection from './components/Main/LatestSection';
-import PopularSection from './components/Main/PopularSection';
+import Footer from './components/Footer';
+import LatestThemeSection from './components/Main/LatestThemeSection';
+import PopularThemeSection from './components/Main/PopularThemeSection';
 import NavBar from './components/NavBar';
 
 const App = () => {
   return (
-    <Fragment>
+    <>
       <NavBar />
-      <Banner />
-      <LatestSection />
-      <PopularSection />
-    </Fragment>
+      <Container>
+        <Banner />
+        <LatestThemeSection />
+        <PopularThemeSection />
+        <Footer />
+      </Container>
+    </>
   );
 };
 

@@ -1,14 +1,14 @@
+.footer_holder {
+  border-bottom: 1px solid #d5dce5;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+}
 .footer_item_bottom {
   font-size: 13px;
   color: #59626d;
   padding: 20px 0;
 }
 
-.footer_holder {
-  border-bottom: 1px solid #d5dce5;
-  padding-bottom: 35px;
-  margin-bottom: 20px;
-}
 .email_input {
   min-width: 250px;
   background: #edf0f5;

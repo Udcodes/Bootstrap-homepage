@@ -12,6 +12,7 @@
   font-weight: 500;
 }
 .search_input {
+  width: 100%;
   min-width: 250px;
   padding-left: 25px;
   position: relative;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron as Banner } from 'react-bootstrap';
+import { Button, Jumbotron as Banner } from 'react-bootstrap';
 import styled from 'styled-components';
 import bootstrapLogo from '../../assets/img/bootstrap-logo.png';
 import './styles.css';
@@ -22,20 +22,14 @@ const Jumbotron = () => {
     <>
       <Banner className="jumbotron" fluid>
         <Styles>
-          <img
-            src={bootstrapLogo}
-            alt="bootstrap logo"
-            srcset=""
-            width="106.5"
-            className="hero_image"
-          />
+          <img src={bootstrapLogo} alt="bootstrap logo" width="106.5" className="hero_image" />
           <h1 className="display-1 text-bold">Build anything</h1>
           <h5 className="text-gray-soft text-regular">
             Themes built by or reviewed by Bootstrap's creators.
           </h5>
-          <button variant="primary" size="lg" className="button button-brand btn-lg mb-5 mb-lg-2">
+          <Button variant="primary" size="lg" className="button button-brand btn-lg mb-5 mb-lg-2">
             Why our themes?
-          </button>
+          </Button>
         </Styles>
       </Banner>
     </>

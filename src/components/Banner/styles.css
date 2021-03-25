@@ -1,8 +1,9 @@
 .btn.btn-primary.btn-lg {
-  outline: none;
-  border: transparent;
+  border: 1px solid transparent;
   color: #fff;
   background-color: #7952b3;
+  padding: 13px 27px;
+  font-size: 16px;
 }
 .text-gray-soft {
   font-weight: normal;
@@ -15,6 +16,9 @@
   color: #838e95 !important;
 }
 .display-1.text-bold {
+  font-size: 80px;
+  color: #272727;
+  letter-spacing: -0.01em;
   line-height: 1.1;
   font-size: 5em;
   margin-bottom: 15px;
@@ -29,19 +33,10 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 60px;
   background-color: white !important;
   padding-bottom: 0;
   margin-bottom: 0;
-}
-.button-brand {
-  color: #fff;
-  background-color: #7952b3;
-  padding: 13px 27px;
-  font-size: 16px;
-  border: 1px solid transparent;
-  line-height: 1.25;
-  border-radius: 0.25rem;
 }
 .button-brand:hover {
   background: #5d3c90;
@@ -52,11 +47,11 @@
 }
 @media screen and (max-width: 991px) {
   .display-1.text-bold {
-    font-size: 42px !important;
+    font-size: 42px;
     margin-bottom: 15px;
   }
   .text-regular {
     font-weight: normal;
-    font-size: 16px !important;
+    font-size: 16px;
   }
 }
