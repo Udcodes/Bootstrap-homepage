@@ -11,7 +11,7 @@ const Cards = ({ thumb, title, category, price, title2, price2, thumb2, category
           <div className="card_wrapper">
             <div className="card_body">
               <a className="d-block img_link" href="./index.jsx" target="_blank">
-                <img src={thumb} alt="" srcset="" className="card_image" />
+                <img src={thumb} alt="theme thumbnail" className="card_image" />
               </a>
               <button type="button" className="card_preview_btn">
                 Live preview
@@ -37,7 +37,7 @@ const Cards = ({ thumb, title, category, price, title2, price2, thumb2, category
           <div className="card_wrapper">
             <div className="card_body">
               <a className="d-block img_link" href="./index.jsx" target="_blank">
-                <img src={thumb2} alt="" srcset="" className="card_image" />
+                <img src={thumb2} alt="theme thumbnail" className="card_image" />
               </a>
               <button type="button" className="card_preview_btn">
                 Live preview
