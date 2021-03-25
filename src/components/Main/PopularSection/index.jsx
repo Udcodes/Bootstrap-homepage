@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { data } from '../../../data';
+import { popularThemes } from '../../../data';
 import Cards from '../../Card';
 import Footer from '../../Footer';
 
@@ -15,20 +15,22 @@ const PopularSection = () => {
               <p className="text-gray-soft">Top-sellers in the past week!</p>
             </div>
           </div>
-          {data?.map(({ id, thumb, title, category, price, thumb2, category2, price2, title2 }) => (
-            <div key={id}>
-              <Cards
-                thumb={thumb}
-                title={title}
-                category={category}
-                price={price}
-                thumb2={thumb2}
-                title2={title2}
-                category2={category2}
-                price2={price2}
-              />
-            </div>
-          ))}
+          {popularThemes?.map(
+            ({ id, thumb, title, category, price, thumb2, category2, price2, title2 }) => (
+              <div key={id}>
+                <Cards
+                  thumb={thumb}
+                  title={title}
+                  category={category}
+                  price={price}
+                  thumb2={thumb2}
+                  title2={title2}
+                  category2={category2}
+                  price2={price2}
+                />
+              </div>
+            )
+          )}
         </div>
         <Footer />
       </Container>

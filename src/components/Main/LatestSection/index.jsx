@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
-import { latestData } from '../../../data';
+import { latestThemes } from '../../../data';
 import Cards from '../../Card';
 import './styles.css';
 
 const LatestSection = () => {
+  const { thumb, title, category, price, thumb2, title2, category2, price2 } = latestThemes;
   return (
     <section className="section">
       <Container>
@@ -16,21 +17,16 @@ const LatestSection = () => {
             </div>
             <Button variant="outline-primary">View all</Button>
           </div>
-          {latestData?.map(
-            ({ id, thumb, title, category, price, thumb2, title2, category2, price2 }) => (
-              <div key={id}>
-                <Cards
-                  thumb={thumb}
-                  title={title}
-                  category={category}
-                  price={price}
-                  thumb2={thumb2}
-                  title2={title2}
-                  category2={category2}
-                />
-              </div>
-            )
-          )}
+          <Cards
+            thumb={thumb}
+            title={title}
+            category={category}
+            price={price}
+            thumb2={thumb2}
+            title2={title2}
+            category2={category2}
+            price2={price2}
+          />
         </div>
       </Container>
     </section>

@@ -64,7 +64,7 @@ import thumb7 from '../assets/img/screenshot7.jpg';
 import thumb8 from '../assets/img/screenshot8.jpg';
 import thumb9 from '../assets/img/screenshot9.jpg';
 
-export const data = [
+export const popularThemes = [
   {
     id: 1,
     thumb: thumb1,
@@ -434,16 +434,13 @@ export const data = [
   },
 ];
 
-export const latestData = [
-  {
-    id: 1,
-    thumb: latestThumb1,
-    title: 'Sell – Next.js E-commerce theme [React]',
-    category: 'E-Commerce & Retail',
-    price: '$59.00',
-    thumb2: latestThumb2,
-    title2: 'Folio – Creative Agency Portfolio Theme',
-    category2: 'Landing & Corporate',
-    price2: '$59.00',
-  },
-];
+export const latestThemes = {
+  thumb: latestThumb1,
+  title: 'Sell – Next.js E-commerce theme [React]',
+  category: 'E-Commerce & Retail',
+  price: '$59.00',
+  thumb2: latestThumb2,
+  title2: 'Folio – Creative Agency Portfolio Theme',
+  category2: 'Landing & Corporate',
+  price2: '$59.00',
+};
