@@ -66,9 +66,6 @@ const img = {
   thumbnail_63: require(`${PATH}screenshot63.jpg`).default,
   latestThumbnail_1: require(`${PATH}latest1.jpg`).default,
   latestThumbnail_2: require(`${PATH}latest2.jpg`).default,
-
-  // UNDER_CONSTRUCTION: require(`${PATH}under-construction.png`),
-  // LADY_AVATAR: require(`${PATH}lady-avatar.png`),
 };
 
 export { img };

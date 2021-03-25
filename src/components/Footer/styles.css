@@ -1,7 +1,7 @@
 .footer_holder {
   border-bottom: 1px solid #d5dce5;
   padding-bottom: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .footer_item_bottom {
   font-size: 13px;
@@ -10,6 +10,7 @@
 }
 
 .email_input {
+  margin-bottom: 0px;
   min-width: 250px;
   background: #edf0f5;
   font-size: 14px;

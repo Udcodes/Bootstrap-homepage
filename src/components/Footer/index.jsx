@@ -6,15 +6,15 @@ const Footer = () => {
   return (
     <div>
       <div className="footer_holder">
-        <Row className="align-content-center">
+        <Row className="align-items-center">
           <Col lg={7} md={6}>
             <h5 className="mb-1">Get new themes in your inbox!</h5>
-            <p className="text-gray-soft form-text mt-0">
+            <p className="text-gray-soft form-text mt-0 mb-sm-2">
               New themes or big discounts. Never spam.
             </p>
           </Col>
           <Col lg={5} md={6}>
-            <InputGroup className="mb-3">
+            <InputGroup className="align-items-center">
               <FormControl
                 className="email_input"
                 placeholder="Email Address"
