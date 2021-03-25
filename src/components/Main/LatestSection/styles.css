@@ -1,0 +1,30 @@
+.section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+.card_holder {
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d5dce5;
+}
+.btn.btn-outline-primary {
+  font-size: 12px;
+  padding: 7.5px 18px;
+  background: transparent;
+  color: #7952b3;
+  border-color: #7952b3;
+}
+.btn.btn-outline-primary:hover {
+  background: #7952b3;
+  color: white;
+}
+.sub_text {
+  font-size: 15px;
+  letter-spacing: -0.01em;
+}
+@media screen and (max-width: 767px) {
+  .section {
+    padding-top: 1rem;
+  }
+}

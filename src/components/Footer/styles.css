@@ -1,0 +1,61 @@
+.footer_item_bottom {
+  font-size: 13px;
+  color: #59626d;
+  padding: 20px 0;
+}
+
+.footer_holder {
+  border-bottom: 1px solid #d5dce5;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+}
+.email_input {
+  min-width: 250px;
+  background: #edf0f5;
+  font-size: 14px;
+  height: 40px;
+  line-height: 1.25;
+  border-radius: 0.25rem !important;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  border: none !important;
+}
+input.form-control:focus {
+  background: #edf0f5;
+  border-color: #edf0f5;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.btn.btn-primary {
+  background: #7952b3;
+  color: #ffffff;
+  padding: 10.5px 27px;
+  font-size: 14px;
+  user-select: none;
+  border: 1px solid transparent;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.btn.btn-primary:hover {
+  background: #5d3c90;
+}
+.footer_list {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0.75rem;
+}
+.sub_link {
+  transition: 250ms;
+  cursor: pointer;
+  color: #00a4ff;
+  touch-action: manipulation;
+}
+.sub_link:hover {
+  text-decoration: none;
+  color: #00a4ff;
+}
+.form-text {
+  color: #838e95;
+  font-size: 13px;
+}

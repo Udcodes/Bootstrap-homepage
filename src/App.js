@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import Banner from './components/Banner';
+import LatestSection from './components/Main/LatestSection';
+import PopularSection from './components/Main/PopularSection';
+import NavBar from './components/NavBar';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <NavBar />
+      <Banner />
+      <LatestSection />
+      <PopularSection />
+    </Fragment>
   );
-}
+};
 
 export default App;
